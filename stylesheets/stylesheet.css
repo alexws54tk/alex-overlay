@@ -1,9 +1,65 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header, footer, section {
+  display: block;
+  position: relative;
+}
+html {
+  /*background: #252525;*/
+}
 body {
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
-  font: 16px;
+  font-size: 12pt;
   line-height: 1.5;
   font-family: "PT Mono", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -12,10 +68,10 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  display: block;
+  max-width: 670px;
   margin: 0 auto;
 }
-
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -44,7 +100,7 @@ header {
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 2.0em;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
@@ -59,11 +115,11 @@ header h1 {
 
 header h1:before {
   content: "./ ";
-  font-size: 24px;
+  font-size: 1.7em;
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 1.5em;
   font-weight: 300;
   color: #A0A0F0;
 }
@@ -96,29 +152,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h1 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 #main_content h2 {
-  font-size: 24px;
+  font-size: 1.7em;
 }
 
 #main_content h3 {
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 #main_content h4 {
-  font-size: 14px;
+  font-size: 1.4em;
 }
 
 #main_content h5 {
-  font-size: 12px;
+  font-size: 1.2em;
   text-transform: uppercase;
   margin: 0 0 5px 0;
 }
 
 #main_content h6 {
-  font-size: 12px;
+  font-size: 1em;
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
@@ -136,11 +192,11 @@ ul li {
 ul li:before {
   content: ">>";
   font-family: "PT Mono", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-size: 1em;
   color: #7A5ADA;
   margin-left: -37px;
   margin-right: 21px;
-  line-height: 16px;
+  line-height: 1em;
 }
 
 blockquote {
@@ -153,7 +209,7 @@ pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
-  font-size: 14px;
+  font-size: 1em;
   color: #7A5ADA;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -199,7 +255,7 @@ hr {
   color: rgba(255, 255, 255, 0.8);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: .8em;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -244,4 +300,24 @@ a {
 
 .cf {
   zoom:1;
+}
+
+/* footer */
+
+footer {
+  /*background: #252525;*/
+  color: #45347B;
+  font-size: .8em;
+  text-align: center;
+}
+
+footer a {
+  color: #A0A0F0;
+}
+footer span.octocat {
+  background: transparent url(../images/octocat.png) 0 0 no-repeat;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
 }
