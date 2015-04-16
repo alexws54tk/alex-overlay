@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>alex@ws54.tk</email>
+		<name>Alexander Golikov</name>
+		<description>
+			If you have any issues, please contact me via e-mail or jabber (same)
+		</description>
+	</maintainer>
+	<use>
+		<flag name="doc">Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally</flag>
+		<flag name="perl">Add optional support/bindings for the Perl language</flag>
+	</use>
+</pkgmetadata>
