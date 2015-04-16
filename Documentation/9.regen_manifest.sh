@@ -1,3 +1,4 @@
 #!/bin/sh
 
-find $(dirname $0)/../ -iname '*.ebuild' | { [[ $@ ]] && grep $@ || cat; } | xargs -I{} ebuild {} digest --force
+cd ..
+find -iname '*.ebuild' | { [[ $@ ]] && grep $@ || cat; } | xargs -I{} ebuild {} digest --force
