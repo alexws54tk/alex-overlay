@@ -1,8 +1,8 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: This ebuild is from (alex-overlay) overlay $
+# $
 
-EAPI="4"
+EAPI="5"
 CHROMIUM_LANGS="cs de en_US es fr it ja kk pt_BR pt_PT ru tr uk zh_CN zh_TW"
 inherit chromium multilib unpacker
 
@@ -11,7 +11,7 @@ HOMEPAGE="http://browser.yandex.ru/beta/"
 LICENSE="EULA"
 SLOT="0"
 SRC_URI="
-	amd64? ( http://repo.yandex.ru/yandex-browser/deb/pool/main/y/yandex-browser-beta/yandex-browser-beta_15.4.2272.2532-1_amd64.deb -> ${P}.deb )
+	amd64? ( http://repo.yandex.ru/yandex-browser/deb/pool/main/y/yandex-browser-beta/yandex-browser-beta_15.6.2311.3894-1_amd64.deb -> ${P}.deb )
 "
 KEYWORDS="~amd64"
 
