@@ -1,0 +1,15 @@
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>alex-overlay</name>
+    <description lang="en">Yet another russian gentoo overlay https://alexws54tk.github.io/alex-overlay/</description>
+    <homepage>https://github.com/alexws54tk/alex-overlay/</homepage>
+    <owner type="person">
+      <email>alex@ws54.tk</email>
+      <name>alex</name>
+    </owner>
+    <source type="git">https://github.com/alexws54tk/alex-overlay.git</source>
+    <source type="git">git://github.com/alexws54tk/alex-overlay.git</source>
+    <source type="git">git@github.com:alexws54tk/alex-overlay.git</source>
+    <feed>https://github.com/alexws54tk/alex-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
