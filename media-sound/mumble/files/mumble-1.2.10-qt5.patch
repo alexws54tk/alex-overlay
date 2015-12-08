@@ -1,0 +1,22 @@
+--- src/mumble/mumble.pro	2015-07-10 01:51:03.000000000 +0600
++++ src/mumble/mumble.pro	2015-10-17 21:23:39.436750313 +0600
+@@ -272,7 +272,7 @@
+
+ dbus {
+ 	DEFINES *= USE_DBUS
+-	CONFIG *= qdbus
++	QT += dbus
+ 	HEADERS *= DBus.h
+ 	SOURCES *= DBus.cpp
+ }
+--- src/murmur/murmur.pro	2015-07-10 01:51:03.000000000 +0600
++++ src/murmur/murmur.pro	2015-10-17 21:22:42.461989189 +0600
+@@ -62,7 +62,7 @@
+ dbus {
+
+ 	DEFINES *= USE_DBUS
+-	CONFIG *= qdbus
++	QT += dbus
+ 	HEADERS *= DBus.h
+ 	SOURCES *= DBus.cpp
+ }
