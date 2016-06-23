@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: This ebuild is from (alex-overlay) overlay $
 
@@ -16,7 +16,7 @@
 # It is suggested that you use the latest EAPI approved by the Council.
 # The PMS contains specifications for all EAPIs. Eclasses will test for this
 # variable if they need to use EAPI > 0 features.
-EAPI="5"
+EAPI=5
 
 # inherit lists eclasses to inherit functions from. Almost all ebuilds should
 # inherit eutils, as a large amount of important functionality has been

@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header: This ebuild is from (alex-overlay) overlay $
 
-EAPI=4
+EAPI=5
 inherit eutils games cmake-utils
 
 MY_VER="2.1.0-r5799"

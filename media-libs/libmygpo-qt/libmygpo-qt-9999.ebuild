@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -45,9 +45,7 @@ src_prepare() {
 		sed -i -e '/find_package/s/QtTest//' CMakeLists.txt || die
 	fi
 
-src_prepare() {
 	epatch "${FILESDIR}"/${PN}-correct-package-name.patch
-}
 
 	# If qtchooser is installed, it may break the build, because moc,rcc and uic binaries for wrong qt version may be used.
 	# Setting QT_SELECT environment variable will enforce correct binaries.

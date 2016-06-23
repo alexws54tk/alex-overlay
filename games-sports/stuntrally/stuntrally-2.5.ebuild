@@ -1,8 +1,8 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header: This ebuild is from (alex-overlay) overlay $
 
-EAPI="5"
+EAPI=5
 
 inherit games cmake-utils
 
@@ -14,7 +14,9 @@ LICENSE="GPL-3"
 IUSE="dedicated +game editor tracks"
 
 KEYWORDS="~amd64 ~x86"
-SRC_URI="https://github.com/stuntrally/stuntrally/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/stuntrally/stuntrally/archive/${PV}.tar.gz -> ${P}.tar.gz
+	tracks? ( https://github.com/stuntrally/tracks/archive/${PV}.tar.gz -> ${PN}-tracks-${PV}.tar.gz )
+"
 
 RDEPEND="
 	game? (
@@ -31,14 +33,12 @@ RDEPEND="
 "
 
 DEPEND="${RDEPEND}"
-PDEPEND="
-	tracks? (
-		=${CATEGORY}/${PN}-tracks-${PV}
-	)
-"
 REQUIRED_USE="editor? ( game ) tracks? ( game )"
 
 DOCS=( Readme.txt )
+
+S=${WORKDIR}
+CMAKE_BUILD_DIR=${WORKDIR}/build
 
 src_configure() {
 	local mycmakeargs=(
