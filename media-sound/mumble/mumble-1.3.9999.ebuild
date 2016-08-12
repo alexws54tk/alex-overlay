@@ -32,7 +32,7 @@ RDEPEND="
 		>=dev-qt/qtsvg-4.5:4
 		>=dev-qt/qtxmlpatterns-4.5:4
 		app-crypt/qca:2[qt4(+)]
-		>=dev-libs/qjson-0.5[qt4]
+		>=dev-libs/qjson-0.5
 		>=media-libs/libmygpo-qt-1.0.7[qt4]
 		media-libs/libechonest[qt4]
 		dbus? ( >=dev-qt/qtdbus-4.5:4 ) )

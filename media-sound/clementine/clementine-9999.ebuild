@@ -31,7 +31,7 @@ COMMON_DEPEND="
 		>=dev-qt/qtopengl-4.5:4
 		>=dev-qt/qtsql-4.5:4[sqlite]
 		app-crypt/qca:2[qt4(+)]
-		>=dev-libs/qjson-0.5[qt4]
+		>=dev-libs/qjson-0.5
 		>=media-libs/libmygpo-qt-1.0.7[qt4]
 		media-libs/libechonest[qt4]
 		dbus? ( >=dev-qt/qtdbus-4.5:4 ) )

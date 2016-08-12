@@ -24,7 +24,7 @@ IUSE="qt4 +qt5 test"
 
 RDEPEND="
 	qt4? ( dev-qt/qtcore:4
-		>=dev-libs/qjson-0.5[qt4] )
+		>=dev-libs/qjson-0.5 )
 	qt5? ( >=dev-qt/qtcore-5.1:5
 		>=dev-qt/qtgui-5.1:5
 		>=dev-qt/qtnetwork-5.1:5
