@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+    <email>flo@geekplace.eu</email>
+    <description>Maintainer, CC him on bugs</description>
+  </maintainer>
+	<longdescription>
+A project automation and build tool with a Groovy based DSL.
+Gradle is completely open source (ASLv2 license) and is a community driven development effort, led by Gradle Inc.
+	</longdescription>
+</pkgmetadata>
