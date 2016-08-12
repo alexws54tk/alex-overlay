@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<maintainer>
- <email>mva@mva.name</email>
- <description>
-	If you have any issues, please contact me, or try to find me in IRC on Freenode, OFTC or RusNet.
- </description> 
- <name>Vadim A. Misbakh-Soloviov</name>
-</maintainer>
-<longdescription>FIXME</longdescription> 
+	<maintainer type="person">
+		<email>alex@ws54.tk</email>
+		<name>Alexander Golikov</name>
+		<description>
+			If you have any issues, please contact me via e-mail or jabber (same)
+		</description>
+	</maintainer>
+<longdescription>Rally game focused on closed rally tracks with possible stunt elements (jumps, loops, pipes).</longdescription> 
 <use>
 	<flag name="editor">Build and install maps editor</flag>
 	<flag name="game">Build and install game client itself</flag>

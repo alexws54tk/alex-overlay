@@ -17,7 +17,7 @@ not relevant for general metadata.xml files.
 -->
 <pkgmetadata>
 <!-- <herd>some-herd</herd> -->
-<maintainer>
+<maintainer type="person">
 	<email>@gentoo.org</email>
 <!--  <description>Description of the maintainership</description> -->
 </maintainer>

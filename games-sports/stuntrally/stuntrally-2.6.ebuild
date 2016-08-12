@@ -26,13 +26,14 @@ RDEPEND="
 		media-libs/libvorbis
 		media-libs/libogg
 	)
-	dev-libs/boost
 	net-libs/enet:1.3
+	"
+
+DEPEND="${RDEPEND}
+	dev-libs/boost
 	virtual/libstdc++
 	sys-devel/gcc:=
 "
-
-DEPEND="${RDEPEND}"
 REQUIRED_USE="editor? ( game ) tracks? ( game )"
 
 DOCS=( Readme.txt )

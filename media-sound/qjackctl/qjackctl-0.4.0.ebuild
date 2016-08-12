@@ -6,7 +6,7 @@ EAPI=5
 
 inherit qmake-utils
 
-DESCRIPTION="A Qt application to control the JACK Audio Connection Kit and ALSA sequencer connections"
+DESCRIPTION="A Qt application to control the JACK Audio Connection Kit"
 HOMEPAGE="http://qjackctl.sourceforge.net/"
 SRC_URI="mirror://sourceforge/qjackctl/${P}.tar.gz"
 

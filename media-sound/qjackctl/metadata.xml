@@ -8,4 +8,6 @@
 			If you have any issues, please contact me via e-mail or jabber (same)
 		</description>
 	</maintainer>
+	<longdescription>A Qt application to control the JACK Audio Connection Kit and ALSA sequencer connections
+	</longdescription>
 </pkgmetadata>

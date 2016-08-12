@@ -1,6 +1,6 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: This ebuild is from (alex-overlay) overlay $
+# $Header: $
 
 EAPI=5
 PLOCALES="ar ar_SY bg ca cs da de el_GR en_GB en_US es et eu fi fr gl he_IL hr hu it ja
@@ -87,10 +87,10 @@ src_configure() {
 }
 
 get_qt_bindir() {
-	local qt4bindir=${EPREFIX}/usr/$(get_libdir)/qt4/bin
+	local qt4bindir="${EPREFIX}/usr/$(get_libdir)/qt4/bin"
 	[[ -x ${qtbindir} ]] ||	qt4bindir=${EPREFIX}/usr/bin
 	use qt4 && echo ${qt4bindir}
-	use qt5 && echo ${EPREFIX}/usr/$(get_libdir)/qt5/bin
+	use qt5 && echo "${EPREFIX}/usr/$(get_libdir)/qt5/bin"
 }
 
 gen_translation() {

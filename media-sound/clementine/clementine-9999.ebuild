@@ -69,7 +69,7 @@ COMMON_DEPEND="
 	lastfm? ( >=media-libs/liblastfm-1 )
 	moodbar? ( sci-libs/fftw:3.0 )
 	mtp? ( >=media-libs/libmtp-1.0.0 )
-	projectm? ( media-libs/glew )
+	projectm? ( media-libs/glew:0 )
 	system-sqlite? ( dev-db/sqlite[fts3(+)] )
 "
 # now only presets are used, libprojectm is internal

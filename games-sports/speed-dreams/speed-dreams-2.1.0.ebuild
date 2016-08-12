@@ -19,14 +19,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="virtual/opengl
-	virtual/glu
-	virtual/jpeg
-	>=media-libs/plib-1.8.3
+RDEPEND="
+	>=media-libs/libpng-1.2.40:1.2
 	media-libs/openal
-	>=net-libs/enet-1.2.2
+	>=media-libs/plib-1.8.3
+	>=net-libs/enet-1.2.2:=
 	sys-libs/zlib
-	>=media-libs/libpng-1.2.40"
+	virtual/glu
+	virtual/jpeg:=
+	virtual/opengl
+	"
 DEPEND="${RDEPEND}"
 
 S=${WORKDIR}

@@ -112,4 +112,3 @@ src_install() {
 	elog "If you are using opensource drivers you should consider installing: "
 	elog "    media-libs/libtxc_dxtn"
 }
-
