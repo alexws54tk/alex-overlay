@@ -1,0 +1,1 @@
+nvidia-settings-340.96.ebuild
