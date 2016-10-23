@@ -1,6 +1,6 @@
 # ChangeLog for app-portage/g-ctan
 # Copyright 1999-2016 Gentoo Foundation
-# $Header: This ebuild is from (alex-overlay) overlay $
+# $Header: This ebuild is from (alex) overlay $
 
   07 May 2012; Alexis Ballier <aballier@gentoo.org> -g-ctan-2010.1.ebuild,
   -g-ctan-2010.2.ebuild:

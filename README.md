@@ -2,10 +2,10 @@
 
 :hash: Distributed under the terms of the GNU General Public License v2
 
-:hash: $Header: This ebuild is from (alex-overlay) overlay $
+:hash: $Header: This ebuild is from (alex) overlay $
 
-# alex-overlay
-Yet another russian gentoo overlay [![Build Status](https://travis-ci.org/alexws54tk/alex-overlay.svg?branch=master)](https://travis-ci.org/alexws54tk/alex-overlay)
+# alex
+Yet another russian gentoo overlay [![Build Status](https://travis-ci.org/alexws54tk/alex.svg?branch=master)](https://travis-ci.org/alexws54tk/alex)
 
 ---
 ```
