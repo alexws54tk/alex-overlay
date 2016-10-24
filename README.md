@@ -1,12 +1,13 @@
-:hash: Copyright 1999-2015 Gentoo Foundation
+:hash: Copyright 1999-2016 Gentoo Foundation
 
 :hash: Distributed under the terms of the GNU General Public License v2
 
-:hash: $Header: This ebuild is from (alex-overlay) overlay $
+:hash: $Header: This ebuild is from (alex) overlay $
 
-# alex-overlay
+# alex
 Yet another russian gentoo overlay
 
+` # layman -a alex `
 
 ---
 ```
