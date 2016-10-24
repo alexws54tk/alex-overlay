@@ -5,7 +5,7 @@
 :hash: $Header: This ebuild is from (alex) overlay $
 
 # alex
-Yet another russian gentoo overlay
+Yet another russian gentoo overlay [![Build Status](https://travis-ci.org/alexws54tk/alex-overlay.svg?branch=master)](https://travis-ci.org/alexws54tk/alex-overlay)
 
 ` # layman -a alex `
 
